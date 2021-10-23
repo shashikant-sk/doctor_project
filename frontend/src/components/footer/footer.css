@@ -1,0 +1,158 @@
+.logoImgFoot{
+    width: 12rem;
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    flex: 0 0 25%;
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow-svg{
+    width: 15px;
+    height: 15px;
+    filter: invert(88%) sepia(57%) saturate(0%) hue-rotate(183deg) brightness(109%) contrast(101%);
+    margin-right: 5px;
+}
+
+.footer-title{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.FooterTop{
+    padding: 40px 10px;
+}
+
+.Footer{
+    color: #fff;
+    background-color: #15558d;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0px 30px;
+}
+
+.FooterBottom{
+    color: white;
+    font-family: "Poppins",sans-serif;
+    font-size: 0.9375rem;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 10px;
+    border-top: 1px solid #1663a6;
+}
+
+.FooterBottom .copyright{
+    width: 50%;
+    text-align: left;
+    
+}
+
+.FooterBottom .policyContent{
+    width: 50%;
+    text-align: right;
+}
+
+.footer-content-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content-list li{
+    margin-bottom: 10px;
+}
+
+.footer-content-list li span{
+    transition: 0.5s;
+}
+
+.footer-content-list li span:hover{
+    cursor: pointer;
+    margin-left: 10px;
+    color: #09e5ab;
+    letter-spacing: 1px;
+}
+
+.social-list-footer{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+.social-list-footer li{
+    margin-right: 20px;
+}
+
+.social-list-footer li:hover{
+    filter: invert(60%) sepia(61%) saturate(1331%) hue-rotate(117deg) brightness(106%) contrast(93%);
+    cursor: pointer;
+    
+}
+
+.social-icon-footer{
+    color: white;
+}
+
+.policyContent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.policyContent span{
+    margin: 0px 10px;
+}
+
+.policyContent .tnc, .policyContent .policy{
+    transition: 0.5s;
+}
+
+.policyContent .tnc:hover, .policyContent .policy:hover{
+    color: #09e5ab;
+    cursor: pointer;
+}
+
+.footer-contact{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-contact li{
+    margin-bottom: 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-contact li p{
+    margin-left: 10px;
+}
+
+.footer-contact .social-icon-footer{
+    margin-top: 5px;
+}

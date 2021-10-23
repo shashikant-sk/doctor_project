@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.material-icons {
+    font-family: material icons;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga'
+}
+
+html {
+    height: 100%
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #272b41;
+    font-family: poppins, sans-serif;
+    font-size: .9375rem;
+    height: 100%;
+    overflow-x: hidden
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #272b41;
+    font-weight: 500
+}
+
+.h1,
+h1 {
+    font-size: 2.25rem
+}
+
+.h2,
+h2 {
+    font-size: 1.875rem
+}
+
+.h3,
+h3 {
+    font-size: 1.5rem
+}
+
+.h4,
+h4 {
+    font-size: 1.125rem
+}
+
+.h5,
+h5 {
+    font-size: 1rem
+}
+
+.h6,
+h6 {
+    font-size: .875rem
+}
+
+a {
+    color: #2e3842
+}
+
+a:hover {
+    color: #09dca4
+}
+
+a:hover,
+a:active,
+a:focus {
+    outline: none;
+    text-decoration: none
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px #fff inset !important
+}
+
+input,
+button,
+a {
+    transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -webkit-transition: all .4s ease
+}
+
+button:focus {
+    outline: 0
+}
+
+input[type=text],
+input[type=password] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: inherit
+}
+
+.form-control {
+    border-color: #dcdcdc;
+    color: #333;
+    font-size: 15px;
+    min-height: 46px;
+    padding: 6px 15px
+}
+
+.table .form-control {
+    font-size: 14px;
+    min-height: 38px
+}
+
+.container-fluid {
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #858585;
+    font-size: 14px
+}
+
+.form-control::-moz-placeholder {
+    color: #858585;
+    font-size: 14px
+}
+
+.form-control:-ms-input-placeholder {
+    color: #858585;
+    font-size: 14px
+}
+
+.form-control::-ms-input-placeholder {
+    color: #858585;
+    font-size: 14px
+}
+
+.form-control::placeholder {
+    color: #858585;
+    font-size: 14px
+}
+
+.list-group-item {
+    border: 1px solid #f0f0f0
+}
+
+.content {
+    min-height: 200px;
+    padding: 30px 0 0
+}
+
+.table {
+    color: #272b41;
+    max-width: 100%;
+    margin-bottom: 0;
+    width: 100%
+}
+
+.table-striped>tbody>tr:nth-of-type(2n+1) {
+    background-color: #f8f9fa
+}
+
+.table.no-border>tbody>tr>td,
+.table>tbody>tr>th,
+.table.no-border>tfoot>tr>td,
+.table.no-border>tfoot>tr>th,
+.table.no-border>thead>tr>td,
+.table.no-border>thead>tr>th {
+    border-top: 0;
+    padding: 10px 8px
+}
+
+.table-nowrap td,
+.table-nowrap th {
+    white-space: nowrap
+}
+
+.table.dataTable {
+    border-collapse: collapse !important
+}
+
+table.table td h2 {
+    display: inline-block;
+    font-size: inherit;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle
+}
+
+table.table td h2.table-avatar {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: inherit;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    white-space: nowrap
+}
+
+table.table td h2 a {
+    color: #272b41
+}
+
+table.table td h2 a:hover {
+    color: #09dca4
+}
+
+table.table td h2 span {
+    color: #888;
+    display: block;
+    font-size: 12px;
+    margin-top: 3px
+}
+
+.table thead {
+    border-bottom: 1px solid rgba(0, 0, 0, .03)
+}
+
+.table thead tr th {
+    border-bottom: 1px solid rgba(0, 0, 0, .05)
+}
+
+.table tbody tr {
+    border-bottom: 1px solid rgba(0, 0, 0, .05)
+}
+
+.table tbody tr:last-child {
+    border-color: transparent
+}
+
+.table.table-center td,
+.table.table-center th {
+    vertical-align: middle
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f7f7f7
+}
+
+.table-hover tbody tr:hover td {
+    color: #474648
+}
+
+.table-striped thead tr {
+    border-color: transparent
+}
+
+.table-striped tbody tr {
+    border-color: transparent
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(235, 235, 235, .4)
+}
+
+.table-bordered {
+    border: 1px solid rgba(0, 0, 0, .05) !important
+}
+
+.table-bordered th,
+.table-bordered td {
+    border-color: rgba(0, 0, 0, .05)
+}
+
+.card-table .card-body {
+    padding: 0
+}
+
+.card-table .card-body .table>thead>tr>th {
+    border-top: 0
+}
+
+.card-table .table tr td:first-child,
+.card-table .table tr th:first-child {
+    padding-left: 1.5rem
+}
+
+.card-table .table tr td:last-child,
+.card-table .table tr th:last-child {
+    padding-right: 1.5rem
+}
+
+.card-table .table td,
+.card-table .table th {
+    border-top: 1px solid #e2e5e8;
+    padding: 1rem .75rem;
+    white-space: nowrap
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: unset
+}
+
+.btn-white {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #272b41
+}
+
+.btn.btn-rounded {
+    border-radius: 50px
+}
+
+.bg-primary,
+.badge-primary {
+    background-color: #09e5ab !important
+}
+
+a.bg-primary:focus,
+a.bg-primary:hover,
+button.bg-primary:focus,
+button.bg-primary:hover {
+    background-color: #09dca4 !important
+}
+
+.bg-success,
+.badge-success {
+    background-color: #00e65b !important
+}
+
+a.bg-success:focus,
+a.bg-success:hover,
+button.bg-success:focus,
+button.bg-success:hover {
+    background-color: #00cc52 !important
+}
+
+.bg-info,
+.badge-info {
+    background-color: #009efb !important
+}
+
+a.bg-info:focus,
+a.bg-info:hover,
+button.bg-info:focus,
+button.bg-info:hover {
+    background-color: #028ee1 !important
+}
+
+.bg-warning,
+.badge-warning {
+    background-color: #ffbc34 !important
+}
+
+a.bg-warning:focus,
+a.bg-warning:hover,
+button.bg-warning:focus,
+button.bg-warning:hover {
+    background-color: #e9ab2e !important
+}
+
+.bg-danger,
+.badge-danger {
+    background-color: #ff0100 !important
+}
+
+a.bg-danger:focus,
+a.bg-danger:hover,
+button.bg-danger:focus,
+button.bg-danger:hover {
+    background-color: #e63333 !important
+}
+
+.bg-white {
+    background-color: #fff
+}
+
+.bg-purple,
+.badge-purple {
+    background-color: #9368e9 !important
+}
+
+.text-primary,
+.dropdown-menu>li>a.text-primary {
+    color: #09e5ab !important
+}
+
+.text-success,
+.dropdown-menu>li>a.text-success {
+    color: #00cc52 !important
+}
+
+.text-danger,
+.dropdown-menu>li>a.text-danger {
+    color: #ff0100 !important
+}
+
+.text-info,
+.dropdown-menu>li>a.text-info {
+    color: #009efb !important
+}
+
+.text-warning,
+.dropdown-menu>li>a.text-warning {
+    color: #ffbc34 !important
+}
+
+.text-purple,
+.dropdown-menu>li>a.text-purple {
+    color: #7460ee !important
+}
+
+.text-muted {
+    color: #757575 !important
+}
