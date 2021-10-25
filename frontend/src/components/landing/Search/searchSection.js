@@ -1,6 +1,7 @@
 import React from 'react';
 //This is the search section of Landing Page
 
+
 function SearchSection(){
     return(
         <>
