@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './card';
-import cardArray from './cardArray'
+import cardArray from './cardArray';
+// import 'bootstrap/dist/css/bootstrap.css';
 // import css from "./landing-page/effect";
 //This is the Blog section of Landing Page
 

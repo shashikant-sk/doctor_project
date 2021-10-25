@@ -2,7 +2,7 @@ const DoctorArray = [
     {
         id: 1,
         name: "Ruby Perrin",
-        imgURL: "assets/img/doctors/doctor-01.jpg",
+        imgURL: "./img/doctors/doctor-01.jpg",
         speciality: "MDS - Periodontology and Oral Implantology, BDS",
         avgRating: "17",
         location: "Florida, USA",
@@ -12,7 +12,7 @@ const DoctorArray = [
     {
         id: 2,
         name: "Darren Elder",
-        imgURL: "assets/img/doctors/doctor-02.jpg",
+        imgURL: "./img/doctors/doctor-02.jpg",
         speciality: "BDS, MDS - Oral & Maxillofacial Surgery",
         avgRating: "35",
         location: "Newyork, USA",
@@ -22,7 +22,7 @@ const DoctorArray = [
     {
         id: 3,
         name: "Deborah Angel",
-        imgURL: "assets/img/doctors/doctor-03.jpg",
+        imgURL: "./img/doctors/doctor-03.jpg",
         speciality: "MBBS, MD - General Medicine, DNB - Cardiology",
         avgRating: "27",
         location: "Georgia, USA",
@@ -32,7 +32,7 @@ const DoctorArray = [
     {
         id: 4,
         name: "Sofia Brient",
-        imgURL: "assets/img/doctors/doctor-04.jpg",
+        imgURL: "./img/doctors/doctor-04.jpg",
         speciality: "MBBS, MS - General Surgery, MCh - Urology",
         avgRating: "4",
         location: "Louisiana, USA",
@@ -42,7 +42,7 @@ const DoctorArray = [
     {
         id: 5,
         name: "Marvin Campbell",
-        imgURL: "assets/img/doctors/doctor-05.jpg",
+        imgURL: "./img/doctors/doctor-05.jpg",
         speciality: "MBBS, MD - Ophthalmology, DNB - Ophthalmology",
         avgRating: "66",
         location: "Michigan, USA",
@@ -52,7 +52,7 @@ const DoctorArray = [
     {
         id: 6,
         name: "Katharine Berthold",
-        imgURL: "assets/img/doctors/doctor-06.jpg",
+        imgURL: "./img/doctors/doctor-06.jpg",
         speciality: "MS - Orthopaedics, MBBS, M.Ch - Orthopaedics",
         avgRating: "52",
         location: "Texas, USA",
@@ -62,7 +62,7 @@ const DoctorArray = [
     {
         id: 7,
         name: "Linda Tobin",
-        imgURL: "assets/img/doctors/doctor-07.jpg",
+        imgURL: "./img/doctors/doctor-07.jpg",
         speciality: "MBBS, MD - General Medicine, DM - Neurology",
         avgRating: "43",
         location: "Kansas, USA",
@@ -72,7 +72,7 @@ const DoctorArray = [
     {
         id: 8,
         name: "Paul Richard",
-        imgURL: "assets/img/doctors/doctor-08.jpg",
+        imgURL: "./img/doctors/doctor-08.jpg",
         speciality: "MBBS, MD - Dermatology , Venereology & Lepros",
         avgRating: "49",
         location: "California, USA",
@@ -82,7 +82,7 @@ const DoctorArray = [
     {
         id: 9,
         name: "Ruby Perrin",
-        imgURL: "assets/img/doctors/doctor-01.jpg",
+        imgURL: "./img/doctors/doctor-01.jpg",
         speciality: "MDS - Periodontology and Oral Implantology, BDS",
         avgRating: "17",
         location: "Florida, USA",
@@ -92,7 +92,7 @@ const DoctorArray = [
     {
         id: 10,
         name: "Ruby Perrin",
-        imgURL: "assets/img/doctors/doctor-01.jpg",
+        imgURL: "./img/doctors/doctor-01.jpg",
         speciality: "MDS - Periodontology and Oral Implantology, BDS",
         avgRating: "17",
         location: "Florida, USA",

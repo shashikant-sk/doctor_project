@@ -8,7 +8,7 @@ function Features(){
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-5 features-img">
-                        <img src="assets/img/features/feature.png" className="img-fluid" alt="Feature" />
+                        <img src="./img/features/feature.png" className="img-fluid" alt="Feature" />
                     </div>
                     <div className="col-md-7">
                         <div className="section-header">
